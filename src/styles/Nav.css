@@ -1,0 +1,23 @@
+.navbar-dark {
+    background-color: #393A3A;
+    /*background-color: #fff;*/
+}
+/*estilos para el NavbarBrand*/
+.brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+.bg-dark-aux {
+	background-color: #393A3A !important;
+}
+
+.dropdown-item:hover {
+	background-color: #393A3A !important;
+	color: #fff;
+}
+
+/*.nav-link {
+    color: black;
+}*/

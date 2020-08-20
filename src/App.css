@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.row-content-without-border {
+    margin:0px auto;
+    padding: 100px 0px 150px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*Clases botones de editar y eliminar*/
+.btn-actions {
+    background-color: initial !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-danger-icon {
+    color: #fb404b !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-info {
+    border-color: #fb404b;
+    color: #17a2b8 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-simple {
+    border: 0 !important;
+    font-size: 24px !important;
+    padding: 8px 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Clases para colocar boton a lado del h1,h2,h3 etc*/
+.heading-inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #9D9FA0;
 }
